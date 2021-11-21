@@ -1,0 +1,19 @@
+.login-page{
+    background-image: linear-gradient(rgb(158, 75, 158), rgb(27, 85, 133));
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-form{
+    background-color: white;
+    margin-top: 10rem;
+    padding: 5rem 5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 5px 5px rgb(127, 128, 127); */
+
+}
+
+.login-form:hover{
+    box-shadow: 0px 0px 5px 5px rgb(91, 95, 91);
+}

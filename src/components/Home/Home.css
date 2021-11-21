@@ -1,0 +1,25 @@
+
+
+.grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(360px, auto));
+    padding: 1rem;
+    
+}
+
+.listItem:hover, .listItem:focus{
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+    cursor: pointer;
+    
+}
+
+.listItem:hover{
+    box-shadow: 0px 0px 5px 5px rgb(189, 189, 189);
+
+}
+
+.errorMessage {
+    padding-bottom: 3rem;
+}
