@@ -15,10 +15,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Login setAuthorization={setAuthorization} setCurrentUser={setCurrentUser} />} />
         <Route path="/login" element={<Login setAuthorization={setAuthorization} setCurrentUser={setCurrentUser} />} />
+        <Route path="/people-interactive" element={<Login setAuthorization={setAuthorization} setCurrentUser={setCurrentUser} />} />
+        <Route path="/people-interactive/login" element={<Login setAuthorization={setAuthorization} setCurrentUser={setCurrentUser} />} />
         <Route path="/home" element={authorized ? (
           <Home setAuthorization={setAuthorization} currentUser={currentUser} />
         ) : (
-          <Navigate to="/login" />
+          <Navigate to="/people-interactive/login" />
         )} />
         <Route path='*' element={<NotFound />} />
       </Routes>
