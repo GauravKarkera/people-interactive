@@ -26,7 +26,7 @@ export default function Home(props: IHomeProps) {
     }, [loading, observer, contactListError]);
 
     console.log("Test");
-     
+    console.log("new log message");
     function fetchContacts() {
         setLoading(true)
         setContactListError(false)
