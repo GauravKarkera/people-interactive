@@ -25,7 +25,7 @@ export default function Home(props: IHomeProps) {
         if (node) observer.current.observe(node)
     }, [loading, observer, contactListError]);
 
-    console.log("Test");
+    console.log("Test2");
      
     function fetchContacts() {
         setLoading(true)
